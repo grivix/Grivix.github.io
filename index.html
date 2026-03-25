@@ -3,24 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PowerMax 85W | Official Site</title>
+    <title>PowerMax 85W | Ultra Fast Charging</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; margin: 0; text-align: center; color: #333; }
-        header { background: #2874f0; color: white; padding: 20px; }
-        .container { padding: 50px 20px; }
-        .badge { background: #388e3c; color: white; padding: 5px 10px; border-radius: 4px; font-size: 0.9em; }
-        .buy-btn { background: #fb641b; color: white; padding: 15px 30px; text-decoration: none; font-weight: bold; border-radius: 2px; display: inline-block; margin-top: 20px; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #ffffff; }
+        .gradient-text { background: linear-gradient(90deg, #2874f0, #00d2ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     </style>
 </head>
-<body>
-    <header>
-        <h1>PowerMax 85W Super Fast Charger</h1>
-    </header>
-    <div class="container">
-        <span class="badge">6 MONTHS WARRANTY</span>
-        <h2>Next-Gen Charging for your Premium Devices</h2>
-        <p>BIS Certified | Overheat Protection | 85W High Speed</p>
-        <a href="https://www.flipkart.com" class="buy-btn">SHOP ON FLIPKART</a>
-    </div>
+<body class="text-gray-900">
+
+    <nav class="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto">
+        <div class="text-2xl font-bold tracking-tighter">POWER<span class="text-blue-600">MAX</span></div>
+        <div class="hidden md:flex space-x-8 font-medium text-sm text-gray-600">
+            <a href="#features" class="hover:text-blue-600">Features</a>
+            <a href="#warranty" class="hover:text-blue-600">Warranty</a>
+            <a href="#support" class="hover:text-blue-600">Support</a>
+        </div>
+        <a href="YOUR_FLIPKART_LINK_HERE" class="bg-blue-600 text-white px-5 py-2 rounded-full text-sm font-semibold hover:bg-blue-700 transition">Buy on Flipkart</a>
+    </nav>
+
+    <section class="max-w-7xl mx-auto px-8 py-12 md:py-24 grid md:grid-cols-2 gap-12 items-center">
+        <div>
+            <span class="bg-blue-50 text-blue-600 px-4 py-1 rounded-full text-xs font-bold uppercase tracking-widest">New Launch 2026</span>
+            <h1 class="text-5xl md:text-7xl font-bold mt-6 leading-tight">85W Ultra <br><span class="gradient-text">Power Delivery.</span></h1>
+            <p class="text-gray-500 mt-6 text-lg leading-relaxed max-w-md">Experience the future of charging. 0 to 80% in just 30 minutes. Engineered for safety, built for speed.</p>
+            
+            <div class="flex items-center space-x-4 mt-10">
+                <a href="YOUR_FLIPKART_LINK_HERE" class="bg-gray-900 text-white px-8 py-4 rounded-xl font-bold hover:scale-105 transition">Order Now</a>
+                <div class="text-sm border-l pl-4 border-gray-200">
+                    <p class="font-bold">4.8/5 Rating</p>
+                    <p class="text-gray-400">on Flipkart</p>
+                </div>
+            </div>
+        </div>
+        <div class="relative">
+            <img src="charger.jpg" alt="85W Fast Charger" class="w-full rounded-3xl shadow-2xl transform hover:-rotate-2 transition duration-500">
+            <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl border border-gray-100">
+                <p class="text-3xl font-bold text-blue-600">85W</p>
+                <p class="text-xs text-gray-400 uppercase font-bold">Max Output</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="bg-gray-50 py-24 px-8">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-3xl font-bold">Why choose PowerMax?</h2>
+            <div class="grid md:grid-cols-3 gap-12 mt-16">
+                <div class="bg-white p-10 rounded-3xl shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6 mx-auto">⚡</div>
+                    <h3 class="font-bold text-xl mb-4">SuperVOOC / Dash</h3>
+                    <p class="text-gray-500 text-sm">Fully compatible with high-speed charging protocols for OnePlus, Realme, and Oppo.</p>
+                </div>
+                <div class="bg-white p-10 rounded-3xl shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mb-6 mx-auto">🛡️</div>
+                    <h3 class="font-bold text-xl mb-4">6 Month Warranty</h3>
+                    <p class="text-gray-500 text-sm">We stand behind our quality. Get a no-questions-asked replacement for any technical faults.</p>
+                </div>
+                <div class="bg-white p-10 rounded-3xl shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center mb-6 mx-auto">🔒</div>
+                    <h3 class="font-bold text-xl mb-4">BIS Certified</h3>
+                    <p class="text-gray-500 text-sm">Safety first. Protected against short-circuits, overheating, and over-voltage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="support" class="py-12 px-8 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-gray-400 text-sm">
+            <p>&copy; 2026 PowerMax Electronics. All rights reserved.</p>
+            <div class="flex space-x-6 mt-4 md:mt-0">
+                <a href="#" class="hover:text-gray-900">Warranty Claim</a>
+                <a href="#" class="hover:text-gray-900">Support Email</a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
